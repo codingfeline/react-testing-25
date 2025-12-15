@@ -6,4 +6,7 @@ export default defineConfig({
     globals: true,
     setupFiles: 'tests/setup.ts',
   },
+  server: {
+    host: '0.0.0.0'
+  }
 })
